@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "ES2022"
+    }
+  },
+  "compilerOptions": {
+    "module": "ES2022",
+    "target": "ES2022",
+    "moduleResolution": "nodenext",
+    "incremental": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "noEmit": true
+  }
+}
